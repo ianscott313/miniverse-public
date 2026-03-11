@@ -1,0 +1,349 @@
+{
+  "gridCols": 20,
+  "gridRows": 7,
+  "floor": [
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "props": [
+    {
+      "id": "large_window",
+      "x": 3,
+      "y": 0,
+      "w": 3.000000000000001,
+      "h": 2.000000000000001,
+      "layer": "below"
+    },
+    {
+      "id": "large_window",
+      "x": 8,
+      "y": 0,
+      "w": 3.000000000000001,
+      "h": 2.000000000000001,
+      "layer": "below"
+    },
+    {
+      "id": "large_window",
+      "x": 13,
+      "y": 0,
+      "w": 3.000000000000001,
+      "h": 2.000000000000001,
+      "layer": "below"
+    },
+    {
+      "id": "wooden_framed_whiteboard",
+      "x": 6,
+      "y": 0.25,
+      "w": 2,
+      "h": 1,
+      "layer": "below"
+    },
+    {
+      "id": "wooden_desk_single",
+      "x": 1.25,
+      "y": 3.75,
+      "w": 3,
+      "h": 2,
+      "layer": "below",
+      "anchors": [
+        {
+          "name": "wooden_desk_single_4_0",
+          "ox": 1,
+          "oy": 2,
+          "type": "work"
+        }
+      ]
+    },
+    {
+      "id": "ergonomic_chair",
+      "x": 2.25,
+      "y": 5.5,
+      "w": 1,
+      "h": 1,
+      "layer": "above",
+      "anchors": [
+        {
+          "name": "ergonomic_chair_5_0",
+          "ox": 0.5,
+          "oy": 1,
+          "type": "rest"
+        }
+      ]
+    },
+    {
+      "id": "tall_potted_plant",
+      "x": 15.75,
+      "y": 1.5,
+      "w": 1,
+      "h": 1,
+      "layer": "below"
+    },
+    {
+      "id": "area_rug_lounge",
+      "x": 15.5,
+      "y": 2.75,
+      "w": 4,
+      "h": 3,
+      "layer": "below"
+    },
+    {
+      "id": "low_coffee_table",
+      "x": 16.5,
+      "y": 3.75,
+      "w": 1.5,
+      "h": 1.5,
+      "layer": "below",
+      "anchors": [
+        {
+          "name": "low_coffee_table_22_0",
+          "ox": 0.75,
+          "oy": 1.5,
+          "type": "social"
+        }
+      ]
+    },
+    {
+      "id": "bean_bag_chair_dark",
+      "x": 15,
+      "y": 3.25,
+      "w": 1.5,
+      "h": 1.5,
+      "layer": "below",
+      "anchors": [
+        {
+          "name": "bean_bag_chair_dark_23_0",
+          "ox": 0.75,
+          "oy": 1.5,
+          "type": "rest"
+        }
+      ]
+    },
+    {
+      "id": "bean_bag_chair_light",
+      "x": 18,
+      "y": 3.25,
+      "w": 1.5,
+      "h": 1.5,
+      "layer": "below",
+      "anchors": [
+        {
+          "name": "bean_bag_chair_light_24_0",
+          "ox": 0.75,
+          "oy": 1.5,
+          "type": "rest"
+        }
+      ]
+    },
+    {
+      "id": "coffee_bar_counter",
+      "x": 0,
+      "y": 1.25,
+      "w": 2.2,
+      "h": 2,
+      "layer": "below"
+    },
+    {
+      "id": "bookshelf_packed",
+      "x": 17,
+      "y": 0.5,
+      "w": 2.3,
+      "h": 2,
+      "layer": "below"
+    }
+  ],
+  "characters": {},
+  "wanderPoints": [
+    {
+      "name": "wander_central_north",
+      "x": 6,
+      "y": 6
+    },
+    {
+      "name": "wander_central_south",
+      "x": 6,
+      "y": 11
+    },
+    {
+      "name": "wander_coffee",
+      "x": 16,
+      "y": 4
+    },
+    {
+      "name": "wander_lounge",
+      "x": 15,
+      "y": 13
+    }
+  ],
+  "spriteMap": {
+    "wooden_desk_single": "/sprites/furniture_0_wooden_desk_single.png",
+    "ergonomic_chair": "/sprites/furniture_1_ergonomic_chair.png",
+    "tall_potted_plant": "/sprites/furniture_2_tall_potted_plant.png",
+    "bookshelf_packed": "/sprites/furniture_3_bookshelf_packed.png",
+    "coffee_bar_counter": "/sprites/furniture_4_coffee_bar_counter.png",
+    "espresso_machine": "/sprites/furniture_5_espresso_machine.png",
+    "mini_fridge": "/sprites/furniture_6_mini_fridge.png",
+    "bean_bag_chair_dark": "/sprites/furniture_7_bean_bag_chair_dark.png",
+    "bean_bag_chair_light": "/sprites/furniture_8_bean_bag_chair_light.png",
+    "low_coffee_table": "/sprites/furniture_9_low_coffee_table.png",
+    "large_window": "/sprites/furniture_10_large_window.png",
+    "wooden_framed_whiteboard": "/sprites/furniture_11_wooden_framed_whiteboard.png",
+    "area_rug_lounge": "/sprites/furniture_12_area_rug_lounge.png"
+  },
+  "tileNames": {
+    "0": "Main Floor",
+    "1": "Exposed Brick Wall",
+    "2": "Concrete Accent"
+  }
+}
