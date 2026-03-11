@@ -66,7 +66,10 @@ async function main() {
   const tileSize = 32;
 
   // Auto-discover agents from server
-  const availableSprites = await fetch('/api/citizens').then(r => r.json()).catch(() => SPRITES);
+  const availableSprites = await fetch('/api/citizens')
+    .then(r => r.json())
+    .then(d => Array.isArray(d) ? d : SPRITES)
+    .catch(() => SPRITES);
   const serverAgents = await fetch('/api/agents')
     .then(r => r.json())
     .then(d => d.agents ?? [])
