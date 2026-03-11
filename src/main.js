@@ -101,6 +101,7 @@ async function main() {
         position: workAnchors[i] ?? sceneData?.wanderPoints?.[i]?.name ?? 'wander_0',
       }))
     ],
+    defaultSprites: availableSprites,
     scale: 2,
     width: gridCols * tileSize,
     height: gridRows * tileSize,
